@@ -19,3 +19,14 @@ This project uses MediaPipe, OpenCV, and PyAutoGUI to control the mouse cursor a
    ```bash
    pip install opencv-python mediapipe pyautogui numpy
    ```
+
+## Usage
+
+1. **Run the Script**
+   ```bash
+   python hand_gesture_mouse_control.py
+   ```
+2. **Control the Mouse**
+- **Cursor Movement**: Move the cursor using the right hand's index finger.
+- **Left Click**: Close the left hand (all fingers close to the palm) to perform a left click.
+- **Right Click**: Close the right hand (all fingers close to the palm) to perform a right click.
